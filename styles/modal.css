@@ -199,6 +199,7 @@ perspective effects (not including the modals and the overlay).
 		background: #ECEFF1;
 		color: #37474f;
 		cursor: pointer;
+		font-family: 'josefin_sansregular', arial;
 }
 .close-wrap {
 	text-align: center;
