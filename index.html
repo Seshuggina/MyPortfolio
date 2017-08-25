@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width" initial-scale=1 maximum-scalable=1 minimum-scalable=1>
     <title>Seshu Uggina</title>
     <link rel="stylesheet" type="text/css" href="styles/site.css">
+    <link rel="stylesheet" type="text/css" href="styles/tile.css">
+    <link rel="stylesheet" type="text/css" href="styles/modal.css">
   </head>
   <body>
 		<header>
@@ -285,21 +287,137 @@
 					</div>
 				</div>
 			</div>
-			<div id="contact" class="page contact">
+			<div id="projects" class="page projects">
+				<div class="container">
+					<h2>Projects:</h2>
+          <div class="view view-tenth">
+              <img src="images/oberoihotels.png" />
+              <div class="mask">
+                  <h2>Oberoi Hotels & Resorts</h2>
+                  <p>Oberoi hotels & resorts are one of the best serving hotels around the globe.</p>
+                  <button class="md-trigger md-setperspective info" data-modal="modal-1">Read More</button>
+              </div>
+          </div>
+          <div class="view view-tenth">
+              <img src="images/advantage_karnataka.png" />
+              <div class="mask">
+                  <h2>Advantage Karntaka</h2>
+                  <p>Advantage Karnataka is a magazine celebrating distinct features of the state that make it an outstanding destination for investment.</p>
+                  <button class="md-trigger md-setperspective info" data-modal="modal-2">Read More</button>
+              </div>
+          </div>
+          <div class="view view-tenth">
+              <img src="images/airfrance.svg" />
+              <div class="mask">
+                  <h2>Air France</h2>
+                  <p>Air France, stylized as AIRFRANCE, is the French flag carrier headquartered in Tremblay-en-France.</p>
+                  <button class="md-trigger md-setperspective info" data-modal="modal-3">Read More</button>
+              </div>
+          </div>
+				</div>
+			</div>
+
+      <div id="contact" class="page contact">
 				<div class="container">
 					<h2>Contact:</h2>
 					<p>Email: <b>seshuggina@gmail.com</b></p>
 					<p>Mobile: <b>+91 9885-500-044</b></p>
 				</div>
 			</div>
+
 			<footer>
 				<div class="container">
 					<p>&copy; 2017</p>
 				</div>
 			</footer>
 		</div>
+    <!-- Modals -->
+    <div class="md-modal md-effect" id="modal-1">
+			<div class="md-content">
+				<h3>Oberoi Hotels & Resorts</h3>
+				<div>
+					<!--<p>Oberoi hotels & resorts are one of the best serving hotels around the globe. This website contains information about hotel facilities and amenities. It allows user to make reservation in advance.</p>-->
+					<ul>
+						<li><strong>Company & Role: </strong> i-Vista &  Web Developer</li>
+						<li><strong>Technology: </strong> HTML, CSS and JQuery</li>
+            <li><strong>Duration: </strong> April 2012 to July 2012</li>
+            <li>
+              <strong>Responsibilities: </strong>
+              <ul class="responsibilities">
+                <li>Understanding of Business Requirements and Use-Case Documents</li>
+                <li>Creating fixed and responsive UI based on user requirement</li>
+                <li>Build and Deployment of applications on different environments</li>
+                <li>Testing and integration on different devices</li>
+                <li>Involved in Integration and User Acceptance Testing</li>
+              </ul>
+            </li>
+					</ul>
+          <div class="close-wrap">
+					 <button class="md-close btn-close">Close me</button>
+          </div>
+				</div>
+			</div>
+		</div>
+    <!-- Modal 2  -->
+    <div class="md-modal md-effect" id="modal-2">
+			<div class="md-content">
+				<h3>Oberoi Hotels & Resorts</h3>
+				<div>
+					<!--<p>Oberoi hotels & resorts are one of the best serving hotels around the globe. This website contains information about hotel facilities and amenities. It allows user to make reservation in advance.</p>-->
+					<ul>
+						<li><strong>Company & Role: </strong> i-Vista &  Web Developer</li>
+						<li><strong>Technology: </strong> HTML, CSS and JQuery</li>
+            <li><strong>Duration: </strong> April 2012 to July 2012</li>
+            <li>
+              <strong>Responsibilities: </strong>
+              <ul class="responsibilities">
+                <li>Understanding of Business Requirements and Use-Case Documents</li>
+                <li>Creating fixed and responsive UI based on user requirement</li>
+                <li>Build and Deployment of applications on different environments</li>
+                <li>Testing and integration on different devices</li>
+                <li>Involved in Integration and User Acceptance Testing</li>
+              </ul>
+            </li>
+					</ul>
+          <div class="close-wrap">
+					  <button class="md-close btn-close">Close me</button>
+          </div>
+				</div>
+			</div>
+		</div>
+    <!-- Modal 3  -->
+    <div class="md-modal md-effect" id="modal-3">
+			<div class="md-content">
+				<h3>Air France</h3>
+				<div>
+					<!--<p>Oberoi hotels & resorts are one of the best serving hotels around the globe. This website contains information about hotel facilities and amenities. It allows user to make reservation in advance.</p>-->
+					<ul>
+						<li><strong>Company & Role: </strong> KRDS &  UI Developer</li>
+						<li><strong>Technology: </strong> HTML, CSS and JQuery</li>
+            <li><strong>Duration: </strong> Need Add</li>
+            <li>
+              <strong>Responsibilities: </strong>
+              <ul class="responsibilities">
+                <li>Understanding of Business Requirements and Use-Case Documents</li>
+                <li>Creating fixed and responsive UI based on user requirement</li>
+                <li>Build and Deployment of applications on different environments</li>
+                <li>Testing and integration on different devices</li>
+                <li>Involved in Integration and User Acceptance Testing</li>
+              </ul>
+            </li>
+					</ul>
+          <div class="close-wrap">
+					       <button class="md-close btn-close">Close me</button>
+          </div>
+				</div>
+			</div>
+		</div>
+    <div class="md-overlay"></div>
+
 		<script type="text/javascript" src="javascripts/responsivevoice.js"></script>
 		<script type="text/javascript" src="javascripts/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="javascripts/site.js"></script>
+    <script src="javascripts/classie.js"></script>
+		<script src="javascripts/modalEffects.js"></script>
   </body>
 </html>
