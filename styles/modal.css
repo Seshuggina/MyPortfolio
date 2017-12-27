@@ -207,10 +207,10 @@ perspective effects (not including the modals and the overlay).
 .md-content .btn-close::before {
 	content: '';
 	position: absolute;
-	top: -20px;
-	left: -20px;
-	bottom: -20px;
-	right: -20px;
+	top: -15px;
+	left: -15px;
+	bottom: -15px;
+	right: -15px;
 	background: inherit;
 	border-radius: 50px;
 	z-index: -1;
