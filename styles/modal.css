@@ -74,7 +74,7 @@ perspective effects (not including the modals and the overlay).
 	margin: 0;
 	padding: 0.4em;
 	text-align: center;
-	font-size: 2.4em;
+	font-size: 2em;
 	font-weight: 300;
 	opacity: 0.8;
 	background: rgba(0,0,0,0.1);
@@ -82,10 +82,10 @@ perspective effects (not including the modals and the overlay).
 }
 
 .md-content > div {
-	padding: 15px 40px 30px;
+	padding: 15px 20px 25px;
 	margin: 0;
 	font-weight: 300;
-	font-size: 1.15em;
+	font-size: 1.1em;
 }
 
 .md-content > div p {
@@ -95,7 +95,7 @@ perspective effects (not including the modals and the overlay).
 
 .md-content > div ul {
 	margin: 0;
-	padding: 0 0 15px 20px;
+	padding: 0 0 0.2em 0;
 }
 
 .md-content > div ul li {
@@ -177,10 +177,10 @@ perspective effects (not including the modals and the overlay).
 	transition: all 0.5s 0.1s;
 }
 
-.md-content > div ul li .responsibilities li{
+.md-content > div ul li .responsibilities li {
 	padding: 0;
 	line-height: 1.2;
-	font-size: 18px;
+	font-size: 1em;
 }
 .md-content .btn-close {
     min-width: 150px;
@@ -278,12 +278,17 @@ perspective effects (not including the modals and the overlay).
 	}
 }
 
+@media screen and (max-width: 56.250em) {
+	.md-content h3 {
+    font-size: 1.5em;
+	}
+	body {
+		font-size: 90%;
+	}
+}
 
 @media screen and (max-width: 32em) {
-	body { font-size: 75%; }
-}
-@media screen and (max-width: 900px) {
-	.md-content h3 {
-    font-size: 2.0em;
+	body {
+		font-size: 70%;
 	}
 }
