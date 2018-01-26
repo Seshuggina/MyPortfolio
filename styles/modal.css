@@ -183,7 +183,7 @@ perspective effects (not including the modals and the overlay).
 	-webkit-transition: all 0.5s 0.1s;
 	-moz-transition: all 0.5s 0.1s;
 	transition: all 0.5s 0.1s;
-	min-height: 350px;
+	min-height: 400px;
 	overflow: hidden;;
 }
 
