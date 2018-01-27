@@ -200,11 +200,8 @@ header.sticky .menu-burger::before {
 	margin: 0 auto;
 	padding: 0 15px;
 }
-.content {
-	height: 100%;
-}
 .page {
-	padding-top: 89px;
+	padding-top: 75px;
 }
 .page.home {
 	position: relative;
