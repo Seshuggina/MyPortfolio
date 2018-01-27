@@ -234,11 +234,11 @@ header.sticky .menu-burger::before {
 	bottom: 0;
 }
 .css-banner-image {
-	background-image: url(../images/seshu_transparent.png);
+  background-image: url(../images/seshu_transparent.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-	opacity: 0.1;
+  background-position: bottom;
+  opacity: 0.1;
 }
 /* stars */
 .stars {
