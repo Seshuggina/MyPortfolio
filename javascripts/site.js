@@ -53,4 +53,5 @@ $(document).ready(function() {
 function removeSiteLoader() {
 	$('#loader-wrapper').animate({opacity: 0 }, 2000 );
 	$('#home').animate({opacity: 1 }, 2000 );
+	$('#loader-wrapper').animate({'z-index': 0 }, 0);
 }
