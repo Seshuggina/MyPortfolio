@@ -783,10 +783,11 @@
     var id = '#modal-scroll-wrapper-' + index;
     myScroll = new IScroll(id, { mouseWheel: true });
     }
-    // document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
-    //   capture: false,
-    //   passive: false
-    // } : false);
+    var projects = document.getElementById('projects')
+    projects.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+       capture: false,
+       passive: false
+     } : false);
   </script>
 </body>
 
