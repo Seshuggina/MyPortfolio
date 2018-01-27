@@ -14,7 +14,10 @@
   <link rel="stylesheet" type="text/css" href="styles/modal.css">
 </head>
 
-<body>
+<body onload="removeSiteLoader()">
+  <div id="loader-wrapper">
+	<div id="loader"></div>
+  </div>
   <header>
     <div class="container">
       <a href="#home" class="logo">Seshu Vuggina</a>
@@ -52,6 +55,7 @@
         </span>
       </span>
       </div>
+      <div class="css-banner css-banner-image"></div>
       <div class="container">
         <div class="banner-text">
           <h1>Hello, my name is <br/> Seshu Vuggina.</h1>
