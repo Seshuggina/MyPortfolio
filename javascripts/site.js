@@ -48,8 +48,8 @@ $(document).ready(function() {
       // responsiveVoice.speak($('#home').text(), "US English Male");
     }
   }, 1500);
-  
-  
+
+
   $("a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
@@ -65,7 +65,7 @@ $(document).ready(function() {
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
@@ -77,5 +77,5 @@ function removeSiteLoader() {
 	$('#loader-wrapper').animate({opacity: 0 }, 2000 );
 	$('#home').animate({opacity: 1 }, 2000 );
 	$('#loader-wrapper').animate({'z-index': 0 }, 0);
+  $('#loader-wrapper').remove();
 }
-
